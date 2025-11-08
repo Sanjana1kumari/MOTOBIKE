@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTOBMW</title>
+    <link rel="Stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="CONTAINER" id="bike">
+        <nav>
+            <img src="image/logo.png" alt="logo">
+        <a href="#" class="btn">Test Drive</a>
+
+        </ul>
+        </nav>
+        <div class="content">
+            <h2>THE BMW</h2>
+            <H1>G 310 R</H1>
+            <p>With iconic BMW bikes such as the BMW R 1300 GS, BMW F 900 GS, F 900 GS Adventure and many more, every road, every map becomes redundant because you will ride off the known path. </p>
+                <h3>CHOOSE YOUR COLOUR</h3>
+                <div class="color-select">
+                    <div id="red"></div>
+                    <div id="Blue"></div>
+                    <div id="Black"></div>
+                </div>
+        </div>
+    </div>
+    <script>
+        let redBtn = document.getElementById("red");
+         let BlueBtn = document.getElementById("Blue");
+          let BlackBtn = document.getElementById("Black");
+           let bike = document.getElementById("bike")
+
+           redBtn.onclick = function(){
+            bike.style.backgroundImage ="url(image/BMW1.png)";
+           }
+           BlueBtn.onclick = function(){
+            bike.style.backgroundImage ="url(image/BMW2.png)";
+           }
+           BlackBtn.onclick = function(){
+            bike.style.backgroundImage ="url(image/BMW3.png)";
+           }
+    </script>
+</body>
+</html>
