@@ -1,2 +1,2 @@
 # MOTOBIKE
-Created a web page of Moto Bike BMW using HTML and CSS
+Created a web page of Moto Bike  using HTML and CSS
